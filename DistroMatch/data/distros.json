@@ -1,0 +1,337 @@
+{
+  "bazzite": {
+    "name": "Bazzite",
+    "category": ["gaming", "general"],
+    "desktop": "KDE",
+    "gpu_support": { "nvidia": 8, "amd": 10, "intel": 10 },
+    "skill": { "beginner": 0, "casual": 5, "intermediate": 10, "advanced": 10 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 6,
+    "performance": 9
+  },
+
+  "nobara": {
+    "name": "Nobara",
+    "category": ["gaming"],
+    "desktop": "KDE/GNOME",
+    "gpu_support": { "nvidia": 10, "amd": 8, "intel": 7 },
+    "skill": { "beginner": 0, "casual": 5, "intermediate": 10, "advanced": 10 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 8
+  },
+
+  "popos": {
+    "name": "Pop!_OS",
+    "category": ["work", "general"],
+    "desktop": "COSMIC",
+    "gpu_support": { "nvidia": 9, "amd": 8, "intel": 8 },
+    "skill": { "beginner": 15, "casual": 15, "intermediate": 10, "advanced": 5 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 8,
+    "performance": 8
+  },
+
+  "fedora_workstation": {
+    "name": "Fedora Workstation",
+    "category": ["work", "general"],
+    "desktop": "GNOME",
+    "gpu_support": { "nvidia": 5, "amd": 10, "intel": 10 },
+    "skill": { "beginner": 10, "casual": 15, "intermediate": 10, "advanced": 5 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 8,
+    "performance": 8
+  },
+
+  "fedora_kde": {
+    "name": "Fedora KDE",
+    "category": ["gaming", "general"],
+    "desktop": "KDE",
+    "gpu_support": { "nvidia": 4, "amd": 10, "intel": 10 },
+    "skill": { "beginner": 5, "casual": 10, "intermediate": 15, "advanced": 10 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 8,
+    "performance": 8
+  },
+
+  "ubuntu_lts": {
+    "name": "Ubuntu LTS",
+    "category": ["work", "general"],
+    "desktop": "GNOME",
+    "gpu_support": { "nvidia": 8, "amd": 7, "intel": 8 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 5 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 10,
+    "performance": 7
+  },
+
+  "linux_mint": {
+    "name": "Linux Mint",
+    "category": ["work", "general"],
+    "desktop": "Cinnamon",
+    "gpu_support": { "nvidia": 8, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 25, "casual": 20, "intermediate": 10, "advanced": 0 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 10,
+    "performance": 7
+  },
+
+  "zorin_os": {
+    "name": "Zorin OS",
+    "category": ["work", "general"],
+    "desktop": "GNOME",
+    "gpu_support": { "nvidia": 8, "amd": 7, "intel": 8 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 9,
+    "performance": 7
+  },
+
+  "zorin_os_lite": {
+    "name": "Zorin OS Lite",
+    "category": ["lightweight"],
+    "desktop": "XFCE",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 9,
+    "performance": 8
+  },
+
+  "linux_lite": {
+    "name": "Linux Lite",
+    "category": ["lightweight"],
+    "desktop": "XFCE",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 25, "casual": 20, "intermediate": 10, "advanced": 0 },
+    "ram_min": 1,
+    "ram_optimal": 2,
+    "stability": 10,
+    "performance": 9
+  },
+
+  "xubuntu": {
+    "name": "Xubuntu",
+    "category": ["lightweight"],
+    "desktop": "XFCE",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 9,
+    "performance": 8
+  },
+
+  "lubuntu": {
+    "name": "Lubuntu",
+    "category": ["lightweight"],
+    "desktop": "LXQt",
+    "gpu_support": { "nvidia": 6, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 1,
+    "ram_optimal": 2,
+    "stability": 9,
+    "performance": 9
+  },
+
+  "mx_linux": {
+    "name": "MX Linux",
+    "category": ["lightweight", "general"],
+    "desktop": "XFCE",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 10,
+    "performance": 8
+  },
+
+  "antix": {
+    "name": "AntiX",
+    "category": ["lightweight"],
+    "desktop": "IceWM",
+    "gpu_support": { "nvidia": 6, "amd": 6, "intel": 6 },
+    "skill": { "beginner": 15, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 0.5,
+    "ram_optimal": 1,
+    "stability": 9,
+    "performance": 10
+  },
+
+  "garuda": {
+    "name": "Garuda Linux",
+    "category": ["gaming", "advanced"],
+    "desktop": "KDE",
+    "gpu_support": { "nvidia": 6, "amd": 10, "intel": 9 },
+    "skill": { "beginner": 0, "casual": 5, "intermediate": 15, "advanced": 20 },
+    "ram_min": 6,
+    "ram_optimal": 8,
+    "stability": 6,
+    "performance": 10
+  },
+
+  "endeavouros": {
+    "name": "EndeavourOS",
+    "category": ["advanced"],
+    "desktop": "Various",
+    "gpu_support": { "nvidia": 6, "amd": 9, "intel": 9 },
+    "skill": { "beginner": 0, "casual": 5, "intermediate": 15, "advanced": 20 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 9
+  },
+
+  "arch": {
+    "name": "Arch Linux",
+    "category": ["advanced"],
+    "desktop": "None",
+    "gpu_support": { "nvidia": 5, "amd": 10, "intel": 10 },
+    "skill": { "beginner": -50, "casual": -20, "intermediate": 0, "advanced": 25 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 6,
+    "performance": 10
+  },
+
+  "gentoo": {
+    "name": "Gentoo",
+    "category": ["advanced"],
+    "desktop": "None",
+    "gpu_support": { "nvidia": 5, "amd": 10, "intel": 10 },
+    "skill": { "beginner": -100, "casual": -50, "intermediate": -20, "advanced": 25 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 10
+  },
+
+  "nixos": {
+    "name": "NixOS",
+    "category": ["advanced"],
+    "desktop": "Various",
+    "gpu_support": { "nvidia": 6, "amd": 9, "intel": 9 },
+    "skill": { "beginner": -50, "casual": -20, "intermediate": 5, "advanced": 25 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 9,
+    "performance": 8
+  },
+
+  "void": {
+    "name": "Void Linux",
+    "category": ["advanced"],
+    "desktop": "Various",
+    "gpu_support": { "nvidia": 6, "amd": 9, "intel": 9 },
+    "skill": { "beginner": -50, "casual": -20, "intermediate": 5, "advanced": 20 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 8,
+    "performance": 9
+  },
+
+  "opensuse_leap": {
+    "name": "openSUSE Leap",
+    "category": ["work"],
+    "desktop": "KDE/GNOME",
+    "gpu_support": { "nvidia": 7, "amd": 8, "intel": 8 },
+    "skill": { "beginner": 10, "casual": 15, "intermediate": 10, "advanced": 5 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 10,
+    "performance": 7
+  },
+
+  "opensuse_tumbleweed": {
+    "name": "openSUSE Tumbleweed",
+    "category": ["advanced"],
+    "desktop": "KDE/GNOME",
+    "gpu_support": { "nvidia": 6, "amd": 10, "intel": 10 },
+    "skill": { "beginner": -10, "casual": 5, "intermediate": 15, "advanced": 20 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 9
+  },
+
+  "debian": {
+    "name": "Debian",
+    "category": ["work", "general"],
+    "desktop": "GNOME",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 7 },
+    "skill": { "beginner": 10, "casual": 15, "intermediate": 10, "advanced": 5 },
+    "ram_min": 2,
+    "ram_optimal": 4,
+    "stability": 10,
+    "performance": 7
+  },
+
+  "elementary": {
+    "name": "Elementary OS",
+    "category": ["work", "general"],
+    "desktop": "Pantheon",
+    "gpu_support": { "nvidia": 7, "amd": 7, "intel": 8 },
+    "skill": { "beginner": 20, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 9,
+    "performance": 7
+  },
+
+  "peppermint": {
+    "name": "Peppermint OS",
+    "category": ["lightweight"],
+    "desktop": "XFCE",
+    "gpu_support": { "nvidia": 6, "amd": 6, "intel": 6 },
+    "skill": { "beginner": 15, "casual": 15, "intermediate": 10, "advanced": 0 },
+    "ram_min": 1,
+    "ram_optimal": 2,
+    "stability": 9,
+    "performance": 9
+  },
+
+  "manjaro": {
+    "name": "Manjaro",
+    "category": ["intermediate"],
+    "desktop": "KDE/GNOME/XFCE",
+    "gpu_support": { "nvidia": 6, "amd": 9, "intel": 9 },
+    "skill": { "beginner": 0, "casual": 10, "intermediate": 15, "advanced": 10 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 6,
+    "performance": 8
+  },
+
+  "cachyos": {
+    "name": "CachyOS",
+    "category": ["gaming", "advanced"],
+    "desktop": "KDE",
+    "gpu_support": { "nvidia": 7, "amd": 10, "intel": 10 },
+    "skill": { "beginner": -20, "casual": 0, "intermediate": 10, "advanced": 20 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 10
+  },
+
+  "chimeraos": {
+    "name": "ChimeraOS",
+    "category": ["gaming"],
+    "desktop": "Gamescope",
+    "gpu_support": { "nvidia": 7, "amd": 10, "intel": 10 },
+    "skill": { "beginner": 0, "casual": 5, "intermediate": 10, "advanced": 10 },
+    "ram_min": 4,
+    "ram_optimal": 8,
+    "stability": 7,
+    "performance": 9
+  }
+}

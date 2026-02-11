@@ -1,0 +1,377 @@
+{
+  "fedora": {
+    "pros": [
+      "Excellent hardware support",
+      "Strong GNOME integration",
+      "Great for laptops and HiDPI displays",
+      "Fast updates with good stability",
+      "Excellent hybrid GPU support"
+    ],
+    "cons": [
+      "Shorter support cycle",
+      "Not ideal for very old hardware"
+    ],
+    "best_for": "Work, development, modern laptops, hybrid GPU systems",
+    "avoid_if": "You want long-term support or extremely lightweight performance",
+    "package_manager": "DNF",
+    "release_cycle": "Every ~6 months",
+    "notes": "Fedora is upstream for Red Hat and focuses on modern Linux technologies."
+  },
+
+  "ubuntu": {
+    "pros": [
+      "Very stable",
+      "Long-term support options",
+      "Great hardware compatibility",
+      "Large community and documentation"
+    ],
+    "cons": [
+      "Older package versions",
+      "Snap integration may bother some users"
+    ],
+    "best_for": "Beginners, work, laptops, general use",
+    "avoid_if": "You want cutting-edge software",
+    "package_manager": "APT + Snap",
+    "release_cycle": "Every 6 months (LTS every 2 years)",
+    "notes": "Ubuntu is one of the most widely supported Linux distributions."
+  },
+
+  "popos": {
+    "pros": [
+      "Excellent NVIDIA/Optimus support",
+      "Clean COSMIC desktop",
+      "Great for laptops and hybrid GPUs"
+    ],
+    "cons": [
+      "Not as lightweight as XFCE distros",
+      "COSMIC still evolving"
+    ],
+    "best_for": "Laptops, hybrid GPUs, work, general use",
+    "avoid_if": "You want ultra-lightweight performance",
+    "package_manager": "APT",
+    "release_cycle": "Based on Ubuntu releases",
+    "notes": "Pop!_OS is optimized for laptops and hybrid GPU systems."
+  },
+
+  "linuxmint": {
+    "pros": [
+      "Very beginner-friendly",
+      "Stable and lightweight",
+      "Cinnamon desktop is fast and familiar",
+      "Great for older hardware"
+    ],
+    "cons": [
+      "Not cutting-edge",
+      "Less ideal for hybrid GPUs"
+    ],
+    "best_for": "Beginners, work, older laptops, general use",
+    "avoid_if": "You want the latest GNOME features",
+    "package_manager": "APT",
+    "release_cycle": "Based on Ubuntu LTS",
+    "notes": "Mint focuses on stability and ease of use."
+  },
+
+  "debian": {
+    "pros": [
+      "Extremely stable",
+      "Massive package repository",
+      "Low resource usage"
+    ],
+    "cons": [
+      "Very old package versions",
+      "Not ideal for gaming"
+    ],
+    "best_for": "Servers, work, stability-focused users",
+    "avoid_if": "You want modern software or gaming performance",
+    "package_manager": "APT",
+    "release_cycle": "Every ~2 years",
+    "notes": "Debian is the foundation for Ubuntu and many other distros."
+  },
+
+  "opensuse_leap": {
+    "pros": [
+      "Rock-solid stability",
+      "Great KDE experience",
+      "Excellent system management tools"
+    ],
+    "cons": [
+      "Older packages",
+      "Not ideal for gaming"
+    ],
+    "best_for": "Work, KDE users, enterprise-like stability",
+    "avoid_if": "You want cutting-edge software",
+    "package_manager": "Zypper",
+    "release_cycle": "Regular point releases",
+    "notes": "Leap is the stable branch of openSUSE."
+  },
+
+  "opensuse_tumbleweed": {
+    "pros": [
+      "Rolling release with excellent stability",
+      "Great KDE experience",
+      "Very up-to-date software"
+    ],
+    "cons": [
+      "Rolling release requires more maintenance",
+      "Not ideal for beginners"
+    ],
+    "best_for": "Intermediate users, KDE fans, developers",
+    "avoid_if": "You want a set-and-forget system",
+    "package_manager": "Zypper",
+    "release_cycle": "Rolling",
+    "notes": "Tumbleweed is one of the most stable rolling distros."
+  },
+
+  "arch": {
+    "pros": [
+      "Cutting-edge software",
+      "Highly customizable",
+      "Massive AUR repository"
+    ],
+    "cons": [
+      "Not beginner-friendly",
+      "Requires manual maintenance"
+    ],
+    "best_for": "Advanced users, custom setups, learning Linux deeply",
+    "avoid_if": "You want a stable, hands-off system",
+    "package_manager": "Pacman",
+    "release_cycle": "Rolling",
+    "notes": "Arch is a DIY distro with full control."
+  },
+
+  "manjaro": {
+    "pros": [
+      "User-friendly Arch-based distro",
+      "Good hardware support",
+      "AUR access"
+    ],
+    "cons": [
+      "Manjaro-specific repos can lag behind Arch",
+      "Occasional stability issues"
+    ],
+    "best_for": "Intermediate users, gaming, general use",
+    "avoid_if": "You want pure Arch stability",
+    "package_manager": "Pacman",
+    "release_cycle": "Semi-rolling",
+    "notes": "Manjaro adds convenience layers on top of Arch."
+  },
+
+  "endeavouros": {
+    "pros": [
+      "Near-Arch experience",
+      "Minimal and clean",
+      "AUR access"
+    ],
+    "cons": [
+      "Not beginner-friendly",
+      "Requires manual setup"
+    ],
+    "best_for": "Intermediate/advanced users, custom setups",
+    "avoid_if": "You want a guided installer with defaults",
+    "package_manager": "Pacman",
+    "release_cycle": "Rolling",
+    "notes": "EndeavourOS is a friendly Arch installer with minimal defaults."
+  },
+
+  "zorin": {
+    "pros": [
+      "Very polished UI",
+      "Great for beginners",
+      "Good Windows-like experience"
+    ],
+    "cons": [
+      "Heavier than XFCE distros",
+      "Paid Pro version for extra layouts"
+    ],
+    "best_for": "Beginners, work, general use",
+    "avoid_if": "You want a lightweight system",
+    "package_manager": "APT",
+    "release_cycle": "Based on Ubuntu LTS",
+    "notes": "Zorin focuses on ease of use and design."
+  },
+
+  "elementary": {
+    "pros": [
+      "Beautiful, macOS-like UI",
+      "Very consistent design",
+      "Good for beginners"
+    ],
+    "cons": [
+      "Limited customization",
+      "Not ideal for gaming"
+    ],
+    "best_for": "Beginners, macOS fans, work",
+    "avoid_if": "You want deep customization",
+    "package_manager": "APT",
+    "release_cycle": "Based on Ubuntu",
+    "notes": "Elementary OS focuses on design and simplicity."
+  },
+
+  "xubuntu": {
+    "pros": [
+      "Lightweight XFCE desktop",
+      "Stable and fast",
+      "Great for older hardware"
+    ],
+    "cons": [
+      "Not ideal for HiDPI",
+      "Not as modern-looking"
+    ],
+    "best_for": "Browsing, older laptops, lightweight performance",
+    "avoid_if": "You want a modern GNOME-like experience",
+    "package_manager": "APT",
+    "release_cycle": "Ubuntu-based",
+    "notes": "Xubuntu is a lightweight Ubuntu flavor."
+  },
+
+  "lubuntu": {
+    "pros": [
+      "Extremely lightweight",
+      "Fast on very old hardware"
+    ],
+    "cons": [
+      "Basic UI",
+      "Not ideal for modern workflows"
+    ],
+    "best_for": "Very old laptops, minimal systems",
+    "avoid_if": "You want a polished desktop",
+    "package_manager": "APT",
+    "release_cycle": "Ubuntu-based",
+    "notes": "Lubuntu uses LXQt for ultra-lightweight performance."
+  },
+
+  "linuxlite": {
+    "pros": [
+      "Very lightweight",
+      "Beginner-friendly",
+      "Great for browsing and basic tasks"
+    ],
+    "cons": [
+      "Not ideal for gaming",
+      "Older package base"
+    ],
+    "best_for": "Browsing, older laptops, beginners",
+    "avoid_if": "You want modern GNOME features",
+    "package_manager": "APT",
+    "release_cycle": "Ubuntu LTS-based",
+    "notes": "Linux Lite is designed for simplicity and speed."
+  },
+
+  "peppermint": {
+    "pros": [
+      "Very lightweight",
+      "Fast and simple",
+      "Great for web-focused workflows"
+    ],
+    "cons": [
+      "Minimal default apps",
+      "Not ideal for gaming"
+    ],
+    "best_for": "Browsing, cloud workflows, old hardware",
+    "avoid_if": "You want a full-featured desktop",
+    "package_manager": "APT",
+    "release_cycle": "Rolling-ish",
+    "notes": "Peppermint is optimized for web-centric use."
+  },
+
+  "mxlinux": {
+    "pros": [
+      "Very stable",
+      "Lightweight",
+      "Great tools for beginners"
+    ],
+    "cons": [
+      "Older packages",
+      "Not ideal for gaming"
+    ],
+    "best_for": "Work, older hardware, stability",
+    "avoid_if": "You want cutting-edge software",
+    "package_manager": "APT",
+    "release_cycle": "Debian-based",
+    "notes": "MX Linux is known for stability and ease of use."
+  },
+
+  "nobara": {
+    "pros": [
+      "Gaming-focused Fedora remix",
+      "Great Proton/Wine support",
+      "Preconfigured gaming tweaks"
+    ],
+    "cons": [
+      "Not ideal for work",
+      "Heavier than stock Fedora"
+    ],
+    "best_for": "Gaming",
+    "avoid_if": "You want a work-focused distro",
+    "package_manager": "DNF",
+    "release_cycle": "Fedora-based",
+    "notes": "Nobara is tuned for gaming performance."
+  },
+
+  "bazzite": {
+    "pros": [
+      "Gaming-focused",
+      "Atomic updates",
+      "Great Steam integration"
+    ],
+    "cons": [
+      "Not ideal for work",
+      "rpm-ostree learning curve"
+    ],
+    "best_for": "Gaming, Steam Deck, immutable systems",
+    "avoid_if": "You want a traditional desktop workflow",
+    "package_manager": "rpm-ostree",
+    "release_cycle": "Rolling",
+    "notes": "Bazzite is built for gaming and immutable systems."
+  },
+
+  "garuda": {
+    "pros": [
+      "Gaming-focused Arch distro",
+      "Beautiful KDE setup",
+      "Performance tweaks included"
+    ],
+    "cons": [
+      "Heavy",
+      "Not ideal for work"
+    ],
+    "best_for": "Gaming, KDE fans",
+    "avoid_if": "You want stability or lightweight performance",
+    "package_manager": "Pacman",
+    "release_cycle": "Rolling",
+    "notes": "Garuda focuses on performance and visuals."
+  },
+
+  "chimeraos": {
+    "pros": [
+      "Console-like gaming experience",
+      "Steam Big Picture optimized"
+    ],
+    "cons": [
+      "Not a general-purpose distro",
+      "Minimal desktop functionality"
+    ],
+    "best_for": "Gaming-only setups",
+    "avoid_if": "You want a normal desktop",
+    "package_manager": "pacman (under the hood)",
+    "release_cycle": "Rolling",
+    "notes": "ChimeraOS is a console-style gaming distro."
+  },
+
+  "cachyos": {
+    "pros": [
+      "Performance-tuned Arch distro",
+      "Great gaming performance",
+      "Custom kernels"
+    ],
+    "cons": [
+      "Not ideal for work",
+      "Rolling release maintenance"
+    ],
+    "best_for": "Gaming, performance enthusiasts",
+    "avoid_if": "You want stability",
+    "package_manager": "Pacman",
+    "release_cycle": "Rolling",
+    "notes": "CachyOS focuses on performance and gaming."
+  }
+}
