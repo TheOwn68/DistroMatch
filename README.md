@@ -73,3 +73,4 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/DistroMatch.git
 cd DistroMatch
+python main.py
